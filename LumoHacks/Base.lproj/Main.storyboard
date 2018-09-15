@@ -78,6 +78,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KIU-7b-m1d">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Bottle" image="icons8-wine-bottle-25" id="wMU-Ss-uMF"/>
+                                    <tabBarItem title="User" image="icons8-administrator-male-25" id="Anu-dC-RSS"/>
+                                    <tabBarItem title="Daily Checkin" image="icons8-today-25" id="y8k-Ap-YjD"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NV3-aS-pXN"/>
@@ -85,10 +95,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uCi-gk-ZgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="730" y="28"/>
+            <point key="canvasLocation" x="962" y="28"/>
         </scene>
     </scenes>
     <resources>
+        <image name="icons8-administrator-male-25" width="25" height="25"/>
+        <image name="icons8-today-25" width="25" height="25"/>
+        <image name="icons8-wine-bottle-25" width="25" height="25"/>
         <image name="seed-white" width="100" height="100"/>
     </resources>
 </document>
