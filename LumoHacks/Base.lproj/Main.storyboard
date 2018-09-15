@@ -73,13 +73,39 @@
                     <view key="view" contentMode="scaleToFill" id="NHE-sd-5jj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8aQ-8R-CH1">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Mood Bottle" image="icons8-wine-bottle-25" id="x52-Ct-bmy"/>
+                                    <tabBarItem title="User" image="icons8-male-user-30" id="t4Y-g8-qqC"/>
+                                    <tabBarItem title="Daily Check-In" image="icons8-today-25" id="TbX-sR-Nj4"/>
+                                </items>
+                            </tabBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbX-yc-mhl">
+                                <rect key="frame" x="27" y="617" width="75" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="PI4-3b-dMO" kind="show" id="LFo-eh-vCV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7B4-Ac-Kmv">
+                                <rect key="frame" x="162" y="618" width="52" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="aNC-v5-ng3" kind="show" id="2LI-u0-fIT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Eu3-DD-tg3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vLY-Q0-s7a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="951" y="-658"/>
+            <point key="canvasLocation" x="960.79999999999995" y="-862.21889055472275"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sle-FK-6Gb">
@@ -102,27 +128,20 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <items>
-                                    <tabBarItem title="Bottle" image="icons8-wine-bottle-25" id="wMU-Ss-uMF"/>
-                                    <tabBarItem title="User" image="icons8-administrator-male-25" id="Anu-dC-RSS"/>
-                                    <tabBarItem title="Daily Checkin" image="icons8-today-25" id="y8k-Ap-YjD"/>
+                                    <tabBarItem title="Mood Bottle" image="icons8-wine-bottle-25" id="wMU-Ss-uMF"/>
+                                    <tabBarItem title="User" image="icons8-male-user-30" id="Anu-dC-RSS"/>
+                                    <tabBarItem title="Daily Check-In" image="icons8-today-25" id="y8k-Ap-YjD"/>
                                 </items>
                             </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxW-S7-MjT">
-                                <rect key="frame" x="0.0" y="617" width="118" height="50"/>
+                                <rect key="frame" x="25" y="617" width="75" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="PI4-3b-dMO" kind="show" id="bBB-qc-u44"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMm-X3-dwW">
-                                <rect key="frame" x="126" y="617" width="118" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="rvB-yg-2fT" kind="show" id="Gce-xX-LPD"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGM-aD-9CL">
-                                <rect key="frame" x="252" y="617" width="118" height="50"/>
+                                <rect key="frame" x="271" y="617" width="81" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="pkn-1i-cs9" kind="show" id="biS-CL-bAh"/>
@@ -139,30 +158,6 @@
             <point key="canvasLocation" x="960.79999999999995" y="27.436281859070466"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="uuc-o9-WDf">
-            <objects>
-                <viewController id="rvB-yg-2fT" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BM4-7f-Qfx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BOTTLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8e9-iu-4X2">
-                                <rect key="frame" x="97" y="170" width="181" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="dxr-cg-tvW"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MgN-MR-dnT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1704.8" y="24.7376311844078"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="1pw-uY-ZHe">
             <objects>
                 <viewController id="PI4-3b-dMO" sceneMemberID="viewController">
@@ -177,6 +172,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rUj-Xg-wPS">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem title="Mood Bottle" image="icons8-wine-bottle-25" id="SFd-dC-AiS"/>
+                                    <tabBarItem title="User" image="icons8-male-user-30" id="BFK-Hq-mum"/>
+                                    <tabBarItem title="Daily Checkin" image="icons8-today-25" id="nJx-E8-adR"/>
+                                </items>
+                            </tabBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5Z-2B-spF">
+                                <rect key="frame" x="159" y="618" width="55" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="aNC-v5-ng3" kind="show" id="CBL-Mk-G1b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7f-xX-FzQ">
+                                <rect key="frame" x="271" y="617" width="82" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="pkn-1i-cs9" kind="show" id="OFK-EZ-a8H"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tl2-5W-FHM"/>
@@ -185,13 +204,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MSx-ap-NQQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="871" y="750"/>
+            <point key="canvasLocation" x="960.79999999999995" y="854.1229385307347"/>
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-administrator-male-25" width="25" height="25"/>
+        <image name="icons8-male-user-30" width="30" height="30"/>
         <image name="icons8-today-25" width="25" height="25"/>
         <image name="icons8-wine-bottle-25" width="25" height="25"/>
         <image name="seed-white" width="100" height="100"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="LFo-eh-vCV"/>
+        <segue reference="2LI-u0-fIT"/>
+        <segue reference="biS-CL-bAh"/>
+    </inferredMetricsTieBreakers>
 </document>
