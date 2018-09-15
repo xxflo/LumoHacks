@@ -13,12 +13,7 @@
         <!--Login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-<<<<<<< Updated upstream
                 <viewController title="LogIn Scene" id="BYZ-38-t0r" customClass="ViewController" customModule="LumoHacks" customModuleProvider="target" sceneMemberID="viewController">
-=======
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <viewController title="Login" id="BYZ-38-t0r" customClass="ViewController" customModule="LumoHacks" customModuleProvider="target" sceneMemberID="viewController">
->>>>>>> Stashed changes
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
