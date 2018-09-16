@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2185DDCF214DE14F0037D9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2185DDCE214DE14E0037D9F6 /* Assets.xcassets */; };
 		D3C9B26B214D7EE000CB8290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C9B26A214D7EE000CB8290 /* AppDelegate.swift */; };
 		D3C9B26D214D7EE000CB8290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C9B26C214D7EE000CB8290 /* ViewController.swift */; };
 		D3C9B270214D7EE000CB8290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C9B26E214D7EE000CB8290 /* Main.storyboard */; };
-		D3C9B272214D7EE100CB8290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C9B271214D7EE100CB8290 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2185DDCE214DE14E0037D9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C9B267214D7EDF00CB8290 /* LumoHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumoHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C9B26A214D7EE000CB8290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C9B26C214D7EE000CB8290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3C9B26F214D7EE000CB8290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D3C9B271214D7EE100CB8290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C9B276214D7EE100CB8290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,8 +54,8 @@
 			children = (
 				D3C9B26A214D7EE000CB8290 /* AppDelegate.swift */,
 				D3C9B26C214D7EE000CB8290 /* ViewController.swift */,
+				2185DDCE214DE14E0037D9F6 /* Assets.xcassets */,
 				D3C9B26E214D7EE000CB8290 /* Main.storyboard */,
-				D3C9B271214D7EE100CB8290 /* Assets.xcassets */,
 				D3C9B276214D7EE100CB8290 /* Info.plist */,
 			);
 			path = LumoHacks;
@@ -119,7 +119,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C9B272214D7EE100CB8290 /* Assets.xcassets in Resources */,
+				2185DDCF214DE14F0037D9F6 /* Assets.xcassets in Resources */,
 				D3C9B270214D7EE000CB8290 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
