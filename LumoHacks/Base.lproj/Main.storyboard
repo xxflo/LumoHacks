@@ -47,7 +47,7 @@
                                     <color key="titleColor" red="0.134735882" green="0.12684563069999999" blue="0.1325960652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="aNC-v5-ng3" kind="show" id="cT1-Uu-1Aj"/>
+                                    <segue destination="aNC-v5-ng3" kind="push" animates="NO" id="cT1-Uu-1Aj"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TextField" translatesAutoresizingMaskIntoConstraints="NO" id="ZZX-CM-J9c">
@@ -91,14 +91,14 @@
                                 <rect key="frame" x="27" y="617" width="75" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="PI4-3b-dMO" kind="show" id="LFo-eh-vCV"/>
+                                    <segue destination="PI4-3b-dMO" kind="show" animates="NO" id="LFo-eh-vCV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7B4-Ac-Kmv">
                                 <rect key="frame" x="162" y="618" width="52" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="aNC-v5-ng3" kind="show" id="2LI-u0-fIT"/>
+                                    <segue destination="aNC-v5-ng3" kind="show" animates="NO" id="2LI-u0-fIT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -133,14 +133,14 @@
                                 <rect key="frame" x="25" y="617" width="75" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="PI4-3b-dMO" kind="show" id="bBB-qc-u44"/>
+                                    <segue destination="PI4-3b-dMO" kind="show" animates="NO" id="bBB-qc-u44"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGM-aD-9CL">
                                 <rect key="frame" x="271" y="617" width="81" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="pkn-1i-cs9" kind="show" id="biS-CL-bAh"/>
+                                    <segue destination="pkn-1i-cs9" kind="show" animates="NO" id="biS-CL-bAh"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile_background" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eqz-Ce-Bgh">
@@ -230,13 +230,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BOTTLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cn-e2-lvZ">
-                                <rect key="frame" x="145" y="120" width="63" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rUj-Xg-wPS">
                                 <rect key="frame" x="0.0" y="618" width="375" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -251,16 +244,27 @@
                                 <rect key="frame" x="159" y="618" width="55" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="aNC-v5-ng3" kind="show" id="CBL-Mk-G1b"/>
+                                    <segue destination="aNC-v5-ng3" kind="show" animates="NO" id="CBL-Mk-G1b"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7f-xX-FzQ">
                                 <rect key="frame" x="271" y="617" width="82" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="pkn-1i-cs9" kind="show" id="OFK-EZ-a8H"/>
+                                    <segue destination="pkn-1i-cs9" kind="show" animates="NO" id="OFK-EZ-a8H"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BOTTLE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cn-e2-lvZ">
+                                <rect key="frame" x="111" y="107" width="130" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icons8-message-in-bottle-64" translatesAutoresizingMaskIntoConstraints="NO" id="PvC-l0-TrU">
+                                <rect key="frame" x="261" y="543" width="83" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tl2-5W-FHM"/>
@@ -277,6 +281,7 @@
         <image name="Login" width="107" height="35"/>
         <image name="TextField" width="229" height="45"/>
         <image name="icons8-male-user-30" width="30" height="30"/>
+        <image name="icons8-message-in-bottle-64" width="64" height="64"/>
         <image name="icons8-today-25" width="25" height="25"/>
         <image name="icons8-wine-bottle-25" width="25" height="25"/>
         <image name="profile_achievement-1" width="100" height="100"/>
